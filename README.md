@@ -1,5 +1,9 @@
 # remotion-kinetic-kit
 
+<p align="center">
+  <img src="docs/demo.gif" alt="Demo reel rendered with remotion-kinetic-kit" width="280" />
+</p>
+
 Reusable [Remotion](https://remotion.dev) components for kinetic-text social reels — the kind of fast, caption-driven vertical video used for Instagram/TikTok hooks, benefit lists, and CTAs. Instead of stock swipe/fade transitions, this kit ships hand-built entrances (blur + rise, 3D card-turn), flash cuts, and a soft light-sweep beat change.
 
 ## What's included
