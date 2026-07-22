@@ -1,0 +1,38 @@
+{
+  "name": "remotion-kinetic-kit",
+  "version": "0.1.0",
+  "description": "Reusable Remotion components for kinetic-text social reels: entrances, flash cuts, light sweeps, and typed scene primitives.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/starkweb67-wq/remotion-kinetic-kit.git"
+  },
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "@remotion/cli": "4.0.489",
+    "@remotion/google-fonts": "4.0.489",
+    "@remotion/tailwind-v4": "4.0.489",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "remotion": "4.0.489",
+    "tailwindcss": "4.0.0"
+  },
+  "devDependencies": {
+    "@remotion/eslint-config-flat": "4.0.489",
+    "@types/react": "19.2.7",
+    "@types/web": "0.0.166",
+    "eslint": "9.19.0",
+    "prettier": "3.8.1",
+    "typescript": "5.9.3"
+  },
+  "scripts": {
+    "dev": "remotion studio",
+    "build": "remotion bundle",
+    "render": "remotion render DemoReel out/demo.mp4",
+    "upgrade": "remotion upgrade",
+    "lint": "eslint src && tsc"
+  },
+  "sideEffects": [
+    "*.css"
+  ]
+}
